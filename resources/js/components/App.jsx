@@ -5,6 +5,7 @@ import Home from '../Pages/Home'
 import Page1 from '../Pages/Page1'
 import Page2 from '../Pages/Page2'
 import Page3 from '../Pages/Page3'
+import Footer from './Footer'
 
 export default function App() {
     return (
@@ -17,6 +18,7 @@ export default function App() {
                 <Route exact path='/page2' component={Page2} />
                 <Route exact path='/page3' component={Page3} />
               </Switch>
+              <Footer/>
             </div>
         </BrowserRouter>
     )
